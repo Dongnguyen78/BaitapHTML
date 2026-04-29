@@ -1,0 +1,76 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.menu {
+    background-color: burlywood;
+    line-height: 40px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+     box-sizing: border-box;
+}
+
+.menu ul li {
+    width: 150px;
+    text-align: center;
+    text-transform:uppercase;
+    color: white;
+     margin: 5px;
+  
+}
+
+.menu ul li:hover {
+    color: red;
+    font-weight: bold;
+    background-color: blue;
+}
+
+.product {
+    display: flex;
+    border: 1px solid green;
+}
+.product .sp {
+    width: 25%;
+    border: 1px solid red;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+}
+
+.product .sp .gia{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    line-height: 30px;
+    width: 30px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
+.product .sp:last-child {
+    margin-right: 0px;
+}
+
+.product .sp img{
+     height: 200px;
+     margin:10px;
+}
+
+.product .sp .mota{
+     border-top: 1px solid red;
+}
+
+.product .sp .mota button{
+     border: 1px solid red;
+     background-color: red;
+     padding: 5px;
+     color: white;
+     margin-bottom: 5px;
+}
